@@ -1,5 +1,5 @@
 [package]
-name = "dynamic-vault"
+name = "prog-dynamic-vault"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
@@ -12,7 +12,7 @@ localnet = []
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "prog_dynamic_vault"
+name = "dynamic_vault"
 
 [dependencies]
 anchor-lang = { version="0.29.0", features = ["event-cpi"] }

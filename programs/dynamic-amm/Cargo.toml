@@ -1,5 +1,5 @@
 [package]
-name = "prog_dynamic_amm"
+name = "prog-dynamic-amm"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
