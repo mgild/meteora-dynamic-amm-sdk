@@ -4,7 +4,6 @@ version = { workspace = true }
 edition = { workspace = true }
 
 [dependencies]
-solana-program = "=1.18"
 anchor-lang = "0.29.0"
 anchor-spl = "0.29.0"
 anchor-client = "0.29.0"
