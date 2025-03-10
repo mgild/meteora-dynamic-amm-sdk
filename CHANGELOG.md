@@ -15,9 +15,57 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-### Fixed
+### Fixed   
 
 ### Security
+
+## @meteora-ag/dynamic-amm-sdk [1.3.1] - PR[#202](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/202)
+
+### Added
+
+- added `moveLockedLP` to transfers locked LP tokens from one owner's escrow to another owner's escrow
+
+## @meteora-ag/dynamic-amm-sdk [1.3.0] - PR[#198](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/198)
+
+### Security
+
+- remove `@solana/spl-token-registry` usage
+
+## @meteora-ag/dynamic-amm-sdk [1.2.1] - PR[#197](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/197)
+
+### Security
+
+- update `@meteora-ag/vault-sdk` version
+
+## @meteora-ag/dynamic-amm-sdk [1.2.0] - PR[#196](https://github.com/MeteoraAg/dynamic-amm-sdk/pull/196)
+
+### Changed
+
+- move to `meteora-ag` org
+
+## @mercurial-finance/dynamic-amm-sdk [1.1.23] - PR[#192](https://github.com/mercurial-finance/mercurial-dynamic-amm-sdk/pull/192)
+
+### Changed
+
+- Added new parameter `memecoinInfo.isMinted` to `createPermissionlessConstantProductMemecoinPoolWithConfig` to allow creating a fee vault with minted token
+
+## @mercurial-finance/dynamic-amm-sdk [1.1.22] - PR[#191](https://github.com/mercurial-finance/mercurial-dynamic-amm-sdk/pull/191)
+
+### Added
+
+- Bump `@solana/web3.js`
+
+## @mercurial-finance/dynamic-amm-sdk [1.1.21] - PR[#190](https://github.com/mercurial-finance/mercurial-dynamic-amm-sdk/pull/190)
+
+### Added
+
+- Update `@meteora-ag/m3m3@1.0.4`
+
+## @mercurial-finance/dynamic-amm-sdk [1.1.20] - PR[#183](https://github.com/mercurial-finance/mercurial-dynamic-amm-sdk/pull/183)
+
+### Changed
+
+- Use optimal CU when creating pool instead of requesting max CU
 
 ## dynamic-amm [0.6.1] - PR [180](https://github.com/mercurial-finance/mercurial-dynamic-amm-sdk/pull/180)
 
